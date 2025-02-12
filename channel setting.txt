@@ -3,8 +3,8 @@ body {
      top: 350px; /* Moves the banner down by 50px from its normal position */
 
      background-image:
-     url(https://pbs.twimg.com/media/Gi94PwwXkAAqdCx?format=jpg&name=large), /* Banner */
-     url(https://pbs.twimg.com/media/Gi7ZoT4WsAAnc5_?format=png&name=small); /* Repeating Background */
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Banner2.png?raw=true), /* Banner */
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/BackgroundDefault.png?raw=true); /* Repeating Background */
     
      background-position:
      0 0, /* Banner */
@@ -28,11 +28,11 @@ body .navbar-header::before {
      content: "Saturday Morning Cartoon Show";
      font-family: 'Comic Sans MS', cursive;
      background-image:
-     url(https://pbs.twimg.com/media/Gi7ZoT4WsAAnc5_?format=png&name=small); /* Banner */
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/BackgroundDefault.png?raw=true); /* Repeating Background */
      background-position:
-     0px; /* Banner */
+     0px; /* Repeating Background */
      background-size: 
-     100%; /* Banner */
+     100%; /* Repeating Background */
      background-repeat: no-repeat;
      background-color: black;
 }
@@ -64,7 +64,7 @@ body #chatwrap {
 }
 body .embed-responsive-item {
      background-image:
-     url(https://pbs.twimg.com/media/Gi_1zHUWkAAqyuB?format=jpg&name=small); /* No Signal */
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/embed-responsive%20Default.png?raw=true); /* No Signal */
      background-position:
      0px 0px; /* No Signal */
      background-size:
@@ -79,8 +79,8 @@ body .embed-responsive-item {
 
     /* URLs for your images */
     background-image: 
-    url(https://pbs.twimg.com/media/GjOKpakW8AAU86x?format=jpg&name=medium), /* Saturday */
-    url(https://pbs.twimg.com/media/GjOKjuvX0AATx25?format=jpg&name=medium); /* Sunday */
+    url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/Saturday%20Default.png?raw=true), /* Saturday */
+    url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/Sundayday%20Default.png?raw=true); /* Sunday */
     
     /* Size of each image */
     background-size: 50%, 50%;
