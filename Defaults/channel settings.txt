@@ -1,0 +1,118 @@
+body {
+     position: relative; /* or absolute, fixed, etc., depending on your layout */
+     top: 350px; /* Moves the banner down by 50px from its normal position */
+
+     background-image:
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Banner2.png?raw=true), /* Banner */
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/BackgroundDefault.png?raw=true); /* Repeating Background */
+    
+     background-position:
+     0 50px, /* Banner */
+     0 50px; /* Repeating Background */
+    
+     background-size:
+     100%, /* Banner */
+     20%; /* Repeating Background */
+    
+     background-repeat: no-repeat, repeat;
+}
+body .container-fluid{
+position: relative; /* or absolute, fixed, etc., depending on your layout */
+top: 50px;
+}
+
+body .navbar-header::before {
+     position: relative; /* or absolute, fixed, etc., depending on your layout */
+     top: 0px; /* Moves the banner down by 50px from its normal position */
+     float: left;
+     padding: 15px;
+     font-size: 18px;
+     line-height: 20px;
+     height: 50px;
+     content: "Saturday Morning Cartoon Show";
+     font-family: 'Comic Sans MS', cursive;
+     background-image:
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/BackgroundDefault.png?raw=true); /* Repeating Background */
+     background-position:
+     0px; /* Repeating Background */
+     background-size: 
+     100%; /* Repeating Background */
+     background-repeat: no-repeat;
+     background-color: black;
+}
+body .navbar-brand {
+     font-family: 'Comic Sans MS', cursive;
+     background-color: black;
+}
+body .navbar-nav>li>a {
+     font-family: 'Comic Sans MS', cursive;
+     background-color: black;
+}
+body .navbar-text {
+     float: right top;
+     padding: 0px;
+     font-size: 18px;
+     line-height: 20px;
+     height: 20px;
+     font-family: 'Comic Sans MS', cursive;
+     background-color: black;
+}
+body .navbar-collapse {background-color: black;}
+body .linewrap {
+     font-family: 'Comic Sans MS', sans-serif;
+     background-color: black;
+}
+body #chatwrap {
+     font-family: 'Comic Sans MS', sans-serif;
+     background-color: black;
+}
+body .panel-heading{
+    font-family: 'Comic Sans MS', sans-serif;
+}
+body .embed-responsive-item {
+     background-image:
+     url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/embed-responsive%20Default.png?raw=true); /* No Signal */
+     background-position:
+     0px 0px; /* No Signal */
+     background-size:
+     100%; /* No Signal */
+     background-repeat: no-repeat;
+     background-color: black;
+}
+footer {
+       position: relative; /* or absolute, fixed, etc., depending on your layout */
+       top: 50px; /* Moves the banner down by 50px from its normal position */
+       background-image:
+       url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/BackgroundDefault.png?raw=true); /* Repeating Background */
+       background-size: 20%;
+       background-repeat: repeat;
+       
+
+}
+.container {
+    position: relative; /* or absolute, fixed, etc., depending on your layout */
+    top: 50px; /* Moves the banner down by 50px from its normal position */
+
+    /* URLs for your images */
+    background-image:
+    url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/Defaults/Saturday%20Default.png?raw=true), /* Saturday */
+    url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/ToonsFlierSunday.png?raw=true), /* Sunday */
+    url(https://github.com/SMCSarchive/SMCS-cytube-repo/blob/main/BottomHeader.jpg?raw=true); /*Bottom Header*/
+
+    /* Size of each image */
+    background-size: 50%, 50%, 100%, 20%;
+    
+    /* Position the images side by side */
+
+    background-position: left top 60px, right top 60px, center top 880px, 0 0;
+
+    /* Ensure the container is wide enough to show both images */
+    width: 100%; /* 100% * 2 */
+    height: 1800px;
+    
+    /* Prevent repetition of the images */
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    
+    /* Optional: if you want the container to fit its content */
+    display: inline-block;
+}
