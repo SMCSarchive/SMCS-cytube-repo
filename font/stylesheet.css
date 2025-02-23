@@ -3,12 +3,13 @@
 
 
 @font-face {
-    font-family: 'dinofilesregular';
-    src: url('dinofiles-webfont.eot');
-    src: url('dinofiles-webfont.eot?#iefix') format('embedded-opentype'),
-         url('dinofiles-webfont.woff2') format('woff2'),
-         url('dinofiles-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'dinofilesregular';
+  src: url('font/dinofiles-webfont.eot');
+  src: url('font/dinofiles-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/Dinofiles.otf') format('opentype');
+       url('font/dinofiles-webfont.woff2') format('woff2'),
+       url('font/dinofiles-webfont.woff') format('woff'),
+       url('font/Dinofiles.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
