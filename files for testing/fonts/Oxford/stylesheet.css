@@ -1,11 +1,11 @@
 @font-face {
-    font-family: '';
-    src: url('https://api.allorigins.win/raw?url=');
-    src: url('https://api.allorigins.win/raw?url=?#iefix') format('embedded-opentype'),
-         url('https://api.allorigins.win/raw?url=') format('opentype'),
-         url('https://api.allorigins.win/raw?url=') format('woff2'),
-         url('https://api.allorigins.win/raw?url=') format('woff'),
-         url('https://api.allorigins.win/raw?url=') format('truetype');
+    font-family: 'Oxford';
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.eot');
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.eot?#iefix') format('embedded-opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.otf') format('opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.woff2') format('woff2'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.woff') format('woff'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }

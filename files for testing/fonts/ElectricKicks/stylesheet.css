@@ -1,11 +1,11 @@
 @font-face {
-    font-family: '';
-    src: url('https://api.allorigins.win/raw?url=');
-    src: url('https://api.allorigins.win/raw?url=?#iefix') format('embedded-opentype'),
-         url('https://api.allorigins.win/raw?url=') format('opentype'),
-         url('https://api.allorigins.win/raw?url=') format('woff2'),
-         url('https://api.allorigins.win/raw?url=') format('woff'),
-         url('https://api.allorigins.win/raw?url=') format('truetype');
+    font-family: 'ElectricKicks'; /* Added a name to reference the font */
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.eot');
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.eot?#iefix') format('embedded-opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.otf') format('opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.woff2') format('woff2'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.woff') format('woff'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
