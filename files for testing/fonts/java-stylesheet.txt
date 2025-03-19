@@ -1,0 +1,52 @@
+const style = document.createElement('style');
+style.textContent = `
+@font-face {
+    font-family: 'ElectricKicks'; /* Added a name to reference the font */
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.eot');
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.eot?#iefix') format('embedded-opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.otf') format('opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.woff2') format('woff2'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.woff') format('woff'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/ElectricKicks/ElectricKicks.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Insecure';
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Insecure/Insecure.eot');
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Insecure/Insecure.eot?#iefix') format('embedded-opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Insecure/Insecure.otf') format('opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Insecure/Insecure.woff2') format('woff2'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Insecure/Insecure.woff') format('woff'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Insecure/Insecure.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mantaray';
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Mantaray/Mantaray.eot');
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Mantaray/Mantaray.eot?#iefix') format('embedded-opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Mantaray/Mantaray.otf') format('opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Mantaray/Mantaray.woff2') format('woff2'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Mantaray/Mantaray.woff') format('woff'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Mantaray/Mantaray.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oxford';
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.eot');
+    src: url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.eot?#iefix') format('embedded-opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.otf') format('opentype'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.woff2') format('woff2'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.woff') format('woff'),
+         url('https://api.allorigins.win/raw?url=smcsarchive.github.io/SMCS-cytube-repo/files%20for%20testing/fonts/Oxford/Oxford.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+`;
+document.head.appendChild(style);
